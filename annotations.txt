@@ -1,0 +1,5 @@
+ATALHOS no VSCODE
+
+header.cabecalho = cria o header, com a classe cabeçalho;
+header#principal = cria o header, com o ID principal;
+div[teste] = cria DIV, com prioridade chamada teste;
