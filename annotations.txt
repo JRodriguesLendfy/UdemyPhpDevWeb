@@ -3,3 +3,44 @@ ATALHOS no VSCODE
 header.cabecalho = cria o header, com a classe cabeçalho;
 header#principal = cria o header, com o ID principal;
 div[teste] = cria DIV, com prioridade chamada teste;
+--------------------------------------------------------
+    No arquivo teste.php, cria um conteúdo, após a criação do conteúdo, podemos 
+buscas as informações através do método $_GET da seguinte forma:
+      
+        <?php
+                include($_GET['dir'] . "/" . $_GET['file'] . ".php");
+                ou
+                include(__DIR__ . "/{$_GET['dir']}/{$_GET['file']}.php"); //utilizando caminho absoluto
+            ?>
+
+
+
+    Incluindo uma requisição denominando o diretório.
+   
+    http://localhost/UdemyPhpDevWeb/exercicio.php?dir=teste&file=teste
+
+    Realizando o GET no link referenciado
+
+-------------------------------------------------------
+
+    Existem muitos arquivos puramente escrito em PHP:
+    - Arquivos interagindo dentro da página PHP;
+    - Incluir arquivos dinamicos no HTML;
+    - Incluir outros arquivos dentro do HTML;
+    - Arquivos inteiramente PHP que não estarão no HTML;
+
+--------------------------------------------------------
+
+Sentenças do PHP:
+
+echo = Print;
+
+---------------------------------------------------------
+Pesquisar:
+
+Tags PHP;
+
+
+
+
+
