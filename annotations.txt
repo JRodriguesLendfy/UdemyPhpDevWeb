@@ -40,6 +40,15 @@ Pesquisar:
 
 Tags PHP;
 
+---------------------------------------------------------
+Atribuição por Valor VS Referência
+
+Valor -  É feito uma cópia do valor, e esta cópia será dada para outra 
+variável em outro espaço da memória;
+
+Referência - Enquanto atribuição por Referência, a variável é alocada para 
+o mesmo endereço de memória da principal;
+
 
 
 
