@@ -16,6 +16,66 @@
     <main class="principal">
         <div class="conteudo">
             <nav class="modulos">
+            <div class="modulo laranja">
+                    <h3>5. Array</h3>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=array&file=basico">
+                                Array
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=array&file=mapa">
+                                Mapa
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=array&file=desafio_index">
+                                Desafio Index
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=array&file=desafio_meses">
+                                Desafio Meses
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=array&file=operacoes">
+                                Operações
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=array&file=desafio_sorteio">
+                                Desafio Sorteio
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=array&file=multi">
+                                Multidimensionais
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=array&file=constantes">
+                                Arrays Constantes
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=array&file=get">
+                                $_GET
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=array&file=post">
+                                $_POST
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=array&file=comparacao">
+                                Comparação Arrays
+                            </a>
+                        </li>
+                    </ul>
+        </div>
             <div class="modulo roxo">
                     <h3>4. Controle</h3>
                     <ul>
@@ -24,57 +84,43 @@
                                 If Else
                             </a>
                         </li>
-                    </ul>
-                    <ul>
                         <li>
                             <a href="exercicio.php?dir=controle&file=operadores_relacionais">
                                 Op. Relacionais
                             </a>
                         </li>
-                    </ul>
-                    <ul>
                         <li>
                             <a href="exercicio.php?dir=controle&file=desafio_pi">
                                 Desafio PI
                             </a>
                         </li>
-                    </ul>
-                    <ul>
                         <li>
                             <a href="exercicio.php?dir=controle&file=operadores_logicos">
                                 Operadores Lógicos
                             </a>
                         </li>
-                    </ul>
-                    <ul>
                         <li>
                             <a href="exercicio.php?dir=controle&file=desafio_operadores_logicos">
                                 Desafio Op. Lógicos
                             </a>
                         </li>
-                    </ul>
-                    <ul>
                         <li>
                             <a href="exercicio.php?dir=controle&file=operador_ternario">
                                 Operador Ternário
                             </a>
                         </li>
-                    </ul>
-                    <ul>
                         <li>
                             <a href="exercicio.php?dir=controle&file=switch">
                                 Switch
                             </a>
                         </li>
-                    </ul>
-                    <ul>
                         <li>
                             <a href="exercicio.php?dir=controle&file=desafio_switch">
                                 Desafio Switch
                             </a>
                         </li>
                     </ul>
-                </div>
+            </div>
                 <div class="modulo azul">
                     <h3>3. Variáveis</h3>
                     <ul>
@@ -83,51 +129,36 @@
                                 Variáveis
                             </a>
                         </li>
-                    </ul>
-                    <ul>
                         <li>
                             <a href="exercicio.php?dir=variaveis&file=desafio_equacao">
                                 Desafio Equação
                             </a>
                         </li>
-                    </ul>
-                    <ul>
                         <li>
                             <a href="exercicio.php?dir=variaveis&file=atribuicoes">
                                 Atribuições
                             </a>
                         </li>
-                    </ul>
-                    <ul>
                         <li>
                             <a href="exercicio.php?dir=variaveis&file=interpolacao">
                                 Interpolação
                             </a>
                         </li>
-                    </ul>
-                    <ul>
                         <li>
                             <a href="exercicio.php?dir=variaveis&file=variaveis_variaveis">
                                 Variáveis Variáveis
                             </a>
                         </li>
-                    </ul>
-                    <ul>
                         <li>
                             <a href="exercicio.php?dir=variaveis&file=desafio_variaveis">
                                 Desafio Variáveis
                             </a>
                         </li>
-                    </ul>
-                    <ul>
                         <li>
                             <a href="exercicio.php?dir=variaveis&file=valor_referencia">
                                 Valor x Referência
                             </a>
                         </li>
-                    </ul>
-                    </ul>
-                    <ul>
                         <li>
                             <a href="exercicio.php?dir=variaveis&file=constantes">
                                 Constantes
@@ -143,50 +174,36 @@
                                 Tipo inteiro
                             </a>
                         </li>
-                    </ul>
-                    <ul>
                         <li>
                             <a href="exercicio.php?dir=tipos&file=float">
                                 Tipo Float
                             </a>
                         </li>
-                    </ul>
-                    <ul>
                         <li>
                             <a href="exercicio.php?dir=tipos&file=aritmeticas">
                                 Op. Aritméticas
                             </a>
                         </li>
-                    </ul>
-                    <ul>
                         <li>
                             <a href="exercicio.php?dir=tipos&file=desafio_precedencia">
                                 Desafio Precedência
                             </a>
                         </li>
-                    </ul>
-                    <ul>
                         <li>
                             <a href="exercicio.php?dir=tipos&file=string">
                                 Tipo String
                             </a>
                         </li>
-                    </ul>
-                    <ul>
                         <li>
                             <a href="exercicio.php?dir=tipos&file=desafio_string">
                                 Desafio String
                             </a>
                         </li>
-                    </ul>
-                    <ul>
                         <li>
                             <a href="exercicio.php?dir=tipos&file=booleano">
                                 Tipo Booleano
                             </a>
                         </li>
-                    </ul>
-                    <ul>
                         <li>
                             <a href="exercicio.php?dir=tipos&file=conversoes">
                                 Conversões

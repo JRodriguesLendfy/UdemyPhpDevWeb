@@ -57,6 +57,10 @@ o mesmo endereço de memória da principal;
 
 '' aspas simples - São apenas Strings, não é interpretativa;
 "" aspas duplas - Podem conter variáveis que serão convertidas em string na hora de executar.
+-------------------------------------------------------------
+
+Arrays Constantes - Um array sempre será constante. Ou seja, não será possível adicionar,
+ou alterar algum valor que já foi atribuído no mesmo. 
 
 
 
