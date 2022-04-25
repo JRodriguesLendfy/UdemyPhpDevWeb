@@ -48,6 +48,16 @@ variável em outro espaço da memória;
 
 Referência - Enquanto atribuição por Referência, a variável é alocada para 
 o mesmo endereço de memória da principal;
+-----------------------------------------------------------
+
+"" = String vazia, é lida como null/0;
+" " = String com um espaço, já é denominada como True;
+
+------------------------------------------------------------
+
+'' aspas simples - São apenas Strings, não é interpretativa;
+"" aspas duplas - Podem conter variáveis que serão convertidas em string na hora de executar.
+
 
 
 
