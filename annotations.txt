@@ -61,6 +61,9 @@ o mesmo endereço de memória da principal;
 
 Arrays Constantes - Um array sempre será constante. Ou seja, não será possível adicionar,
 ou alterar algum valor que já foi atribuído no mesmo. 
+-------------------------------------------------------------
+Foreach - Coleta todas as posições do array, independente do valor;
+For/while - Pois é possível controlar da forma que será trabalhada as posições;
 
 
 
