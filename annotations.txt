@@ -62,8 +62,35 @@ o mesmo endereço de memória da principal;
 Arrays Constantes - Um array sempre será constante. Ou seja, não será possível adicionar,
 ou alterar algum valor que já foi atribuído no mesmo. 
 -------------------------------------------------------------
+
 Foreach - Coleta todas as posições do array, independente do valor;
 For/while - Pois é possível controlar da forma que será trabalhada as posições;
+--------------------------------------------------------------
+
+Passar paramêtros por cópia, sempre mantém o valor que foi predefinido.
+Passar por refrência, altera pelo valor que foi definido posteriormente.
+---------------------------------------------------------------
+
+Função anônima e Função tradicional são Callables, no caso são possíveis de serem chamadas.
+(is_callable)
+---------------------------------------------------------------
+
+Recursividade, é nada mais que, pegar um problema maior, e ir quebrando em um problema menor
+---------------------------------------------------------------
+
+Ponto positivo para retornar uma função dentro de outra, é se caso a função seja muito pesada,
+podemos deixa-lá em segunda instância, e assim que a primeira função for compilada, passamos
+para a segunda função, pois assim o sistema não "pesa" no processamento!
+----------------------------------------------------------------
+
+Map e Filter
+O Map serve para transformar um array em outro array, e cada elemento pode ser transformado 
+apartir de uma função.
+
+O Filter serve para transformar um array em outro array, que denomina as informações como 
+Verdadeiro ou falso e retorna apenas o verdadeiro.
+------------------------------------------------------------------
+
 
 
 
