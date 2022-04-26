@@ -91,6 +91,66 @@ O Filter serve para transformar um array em outro array, que denomina as informa
 Verdadeiro ou falso e retorna apenas o verdadeiro.
 ------------------------------------------------------------------
 
+Paradigmas
+ Não Estruturado (GoTo)
+ Procedural
+ Funcional
+ Orientação a Objetos
+
+
+Procedural X Orientação a Objetos
+
+ Procedural é focado na função(receber os dados, alterar os dados e retornar)
+
+ Orientação Objeto é focado no Objeto
+
+Exemplo:
+
+Procedural -  função recebe o paramêtro, faz um tipo de tratamento, e devolve o resultado, onde pode
+ser aplicado em outro dado, ou função.. Mas se o valor for passado por referência, dentro da função
+formatarData, será possível alterar o valor da memória e acaba modificando o conteúdo da variável, 
+mesmo depois da chamada do método.
+    
+    formatarData(nascimento);
+
+Orientação a Objeto - A classe cria um objeto,e  o objeto é um dado. E o objeto tem uma função ou método
+e este método vai mexer nos atributos que pertencem aquele objeto., ou seja, o foco é o dado.
+
+    nascimento->formatarData();
+---------------------------------------------------------------------------
+
+Pilares de Orientação a Objeto #01
+
+    • Encapsulamento 
+    • Herança 
+    • Polimorfismo
+    • Abstração
+
+#01 ENCAPSULAMENTO
+
+    Nada mais é que, não precisar entender a implementação interna de um objeto.
+Como se fosse um caixa preta, onde dentro dela, encontram-se métodos e atributos, na qual
+alguns são privados, e outro públicos, e com isso, basta entender como funciona a forma de 
+implementação, da mesma forma que não precisamos entender o funcionamento total de um carro,
+mas mesmo assim, com os "métodos e atributos" disponíveis, conseguimos controlar(dirigir) o carro.
+Simplesmente, é só saber interagir com os objetos e métodos disponíveis, saber quais parametros
+tais métodos recebem, que tipo de retorno ele irá devolver...
+
+Modificadores de Acesso
+
+    - Public, garante que o atributo/constante/método, que seja... Está disponível para todos.
+    - Protected, garante que um determinado atributo está disponível dentro de sua própria classe,
+    mas também é transmitido por HERANÇA.
+    - Private, garante que aquele membro/atributo só está disponível dentro de sua própria classe;
+
+#02 HERANÇA
+
+
+
+
+
+
+
 
 
 
