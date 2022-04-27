@@ -16,6 +16,21 @@
     <main class="principal">
         <div class="conteudo">
             <nav class="modulos">
+            <div class="modulo roxo-escuro">
+                <h3>9. Includes</h3>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=includes&file=include">
+                                Include
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=includes&file=include_funcao">
+                                Include Função
+                            </a>
+                        </li>
+                    </ul>
+            </div>
             <div class="modulo azul-escuro">
                 <h3>8. Paradigmas O.O.</h3>
                     <ul>
@@ -24,14 +39,69 @@
                                 Primeira Classe
                             </a>
                         </li>
+                         <li>
+                                <a href="exercicio.php?dir=classes_objetos&file=data">
+                                    Classe Data
+                                </a>
+                        </li>
                         <li>
                             <a href="exercicio.php?dir=classes_objetos&file=construtor_destrutor">
                                 Construtor & Destrutor
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=classes_objetos&file=data">
-                                Classe Data
+                            <a href="exercicio.php?dir=classes_objetos&file=heranca">
+                                Herança
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=classes_objetos&file=visibilidade">
+                                Visibilidade
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=classes_objetos&file=static">
+                                Membros Estáticos
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=classes_objetos&file=interface">
+                                Interface
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=classes_objetos&file=abstract">
+                                Classe Abstrata
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=classes_objetos&file=desafio_erros">
+                                Desafio 7 Erros
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=classes_objetos&file=final">
+                                Modificador Final
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=classes_objetos&file=traits_01">
+                                Traits #01
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=classes_objetos&file=traits_02">
+                                Traits #02
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=classes_objetos&file=magic_methods">
+                                Métodos Mágicos
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=classes_objetos&file=polimorfismo">
+                                Polimorfismo
                             </a>
                         </li>
                     </ul>
@@ -100,7 +170,7 @@
                             </a>
                         </li>
                     </ul>
-                </div>
+            </div>
             <div class="modulo verde-escuro">
                 <h3>6. Repetição</h3>
                     <ul>
@@ -371,8 +441,8 @@
                         </li>
                     </ul>
                 </div>
-            </nav>
-        </div>
+        </nav>
+    </div>
 
     </main>
     <footer class="rodape">

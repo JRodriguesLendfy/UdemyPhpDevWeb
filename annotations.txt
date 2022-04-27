@@ -125,6 +125,7 @@ Pilares de Orientação a Objeto #01
     • Herança 
     • Polimorfismo
     • Abstração
+__________________________
 
 #01 ENCAPSULAMENTO
 
@@ -142,8 +143,76 @@ Modificadores de Acesso
     - Protected, garante que um determinado atributo está disponível dentro de sua própria classe,
     mas também é transmitido por HERANÇA.
     - Private, garante que aquele membro/atributo só está disponível dentro de sua própria classe;
+__________________________
 
 #02 HERANÇA
+
+                    Reuso de código
+
+        Composição                      Herança
+    ...Tem um (a)...                 ...É um (a)...
+    - Carro tem um motor             - Civic é um carro
+    - Carro tem portas               - Gato é um mamífero
+    - Casa tem uma cozinha           - Maçã é uma fruta
+
+Exemplo de Herança
+
+Animal > 
+É um mamífero / anfíbio >
+É um mamífero aquático / mamífero terrestre / sapo
+
+Super Classe (+Genérica)
+Sub Classe (+Específica)
+__________________________
+
+#03 POLIMORFISMO
+
+Estático(sobrecarga)                    Dinânimco
+
+Estático, é quando recebe duas funcões com o mesmo nome, mas que tem atribuições diferentes,
+por exemplo:
+    function a();
+    function a($b);
+NÃO EXISTE NO PHP!
+
+Dinâmico, tem que ter uma herança, e normalmente é utilizado em linguagens fortemente 
+tipadas, mas é possível aplicar em linguagens fracamente tipadas, exemplo:
+    
+    function estacionar(Civic $c){...};
+    Invés de denominar a variável $c como Civic
+
+    function estacionar(Carro $c){...};
+    Podemos denominar como Carro, e assim, podemos associar qualquer carro na função estacionar,
+    basicamente temos uma definição mais genérica da variável $c
+__________________________
+
+#04 ABSTRAÇÃO
+
+    Transforma coisas do mundo real para dentro de um software.
+
+--------------------------------------------------------------------
+
+Classe Abstrata
+
+Interface = 0% Métodos Implementados
+No meio - Classe Abstrata NÃO PODE SER INSTANCIADA
+Classe Concreta = 100% Métodos Implementados
+
+Não há necessidade de que todos os métodos estejam implementados;
+---------------------------------------------------------------------
+
+Classe final - Uma classe que não há herança
+
+
+
+
+
+
+
+
+
+
+
 
 
 
